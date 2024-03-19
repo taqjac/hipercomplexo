@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://tiagojacinto.eu/</loc>
+        <loc>https://tiagojacinto.eu/hipercomplexo/</loc>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/blog/</loc>
+        <loc>https://tiagojacinto.eu/hipercomplexo/blog/</loc>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/blog/first/</loc>
+        <loc>https://tiagojacinto.eu/hipercomplexo/blog/first/</loc>
         <lastmod>2019-11-27</lastmod>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/blog/second/</loc>
+        <loc>https://tiagojacinto.eu/hipercomplexo/blog/second/</loc>
         <lastmod>2019-11-28</lastmod>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/sobre/</loc>
+        <loc>https://tiagojacinto.eu/hipercomplexo/sobre/</loc>
     </url>
 </urlset>
