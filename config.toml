@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://hipercomplexo.vercel.app"
+title = "Hipercomplexo"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -16,4 +17,3 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-output_dir = "docs"
