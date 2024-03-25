@@ -6,19 +6,29 @@
   <title>{{ config.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
-
 </head>
 
 <body>
-    <header>
-        <h1><a href="{{ config.base_url }}">{{ config.title }}</a></h1>
-        </header>
+  <header>
+    <h1><a href="{{ config.base_url }}">{{ config.title }}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a></li>
+        <li><a href="{{ get_url(path='@/ensaios/_index.md') }}">Ensaios</a></li>
+        <li><a href="{{ get_url(path='@/sobre/_index.md') }}">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <section class="section">
     <div class="container">
       {% block content %} {% endblock %}
     </div>
   </section>
+
+  <footer>
+    This is the footer.
+  </footer>
 </body>
 
 </html>

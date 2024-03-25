@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://tiagojacinto.eu/hipercomplexo/</loc>
+        <loc>https://hipercomplexo.vercel.app/</loc>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/hipercomplexo/blog/</loc>
+        <loc>https://hipercomplexo.vercel.app/blog/</loc>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/hipercomplexo/blog/first/</loc>
+        <loc>https://hipercomplexo.vercel.app/blog/first/</loc>
         <lastmod>2019-11-27</lastmod>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/hipercomplexo/blog/second/</loc>
+        <loc>https://hipercomplexo.vercel.app/blog/second/</loc>
         <lastmod>2019-11-28</lastmod>
     </url>
     <url>
-        <loc>https://tiagojacinto.eu/hipercomplexo/sobre/</loc>
+        <loc>https://hipercomplexo.vercel.app/ensaios/</loc>
+    </url>
+    <url>
+        <loc>https://hipercomplexo.vercel.app/ensaios/primeiro/</loc>
+        <lastmod>2024-03-20</lastmod>
+    </url>
+    <url>
+        <loc>https://hipercomplexo.vercel.app/sobre/</loc>
+    </url>
+    <url>
+        <loc>https://hipercomplexo.vercel.app/tags/</loc>
+    </url>
+    <url>
+        <loc>https://hipercomplexo.vercel.app/tags/tag1/</loc>
     </url>
 </urlset>

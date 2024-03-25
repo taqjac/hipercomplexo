@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://tiagojacinto.eu/hipercomplexo/sitemap.xml
+Sitemap: https://hipercomplexo.vercel.app/sitemap.xml

@@ -5,6 +5,17 @@
 <h1 class="title">
   
 </h1>
+
 <p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see my posts.</p>
 <p>Click <a href="{{ get_url(path='@/sobre/_index.md') }}">here</a> to see my abut page.</p>
+<p>Click <a href="{{ get_url(path='@/ensaios/_index.md') }}">here</a> to see my ensaios.</p>
+
+<ul>
+    <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+    {% for page in section.pages %}
+    <li>{{ page.date }} <a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
 {% endblock content %}
+
