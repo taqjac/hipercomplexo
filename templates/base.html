@@ -5,10 +5,13 @@
   <meta charset="utf-8">
   <title>{{ config.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
     <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
+  
 </head>
 
 <body>
+  <main>
   <header>
     <h1><a href="{{ config.base_url }}">{{ config.title }}</a></h1>
     <nav>
@@ -29,6 +32,7 @@
   <footer>
     This is the footer.
   </footer>
+</main>
 </body>
 
 </html>
