@@ -52,9 +52,8 @@ table {
 */
 
 :root {
-	--font-text: Georgia, serif;
+	--font-text: serif;
 	--font-header: sans-serif;
-	
   }
 
 
@@ -74,16 +73,24 @@ body {
 
   h1, h2, h3 {
 	font-family: var(--font-header);
-	font-weight: 700;
+	font-weight: bold;
   }
 
   img { 
 	max-width: 100%;
 	}
 
+header {
+	padding-top: 4em;
+}
+
 header h1 {
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 2em;
+}
+
+header a {
+	text-decoration: none;
 }
 
 nav {
